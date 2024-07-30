@@ -18,16 +18,17 @@ body {
     height:100px;
     padding:24px;
     border: 3px solid black;
+    border-radius:50%;
 }
 
 .box1 {
-    background-color: rgb(92, 64, 158);
+    background-color: rgb(214, 118, 9);
 }
 
 .box2 {
-    background-color: rgb(25, 18, 56);
+    background-color: rgb(143, 95, 6);
 }
 
 .box3 {
-    background-color: rgb(93, 31, 209);
+    background-color: rgb(39, 26, 2);
 }
