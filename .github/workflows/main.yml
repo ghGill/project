@@ -18,4 +18,7 @@ jobs:
         run: |
           echo "My App Name :${{env.MY_APP_NAME}} ======= My Pckg Name :${{env.MY_PACKAGE_NAME}}"
           echo "Text variable is ${{ env.VAR_TEXT }}"
+          echo "Local var = ${{ env.LOCAL_VAR }}"
+        env:
+          LOCAL_VAR: "LOCAL VAR"
         
