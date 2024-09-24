@@ -10,8 +10,13 @@ on:
       
 jobs:
   job-1:
+    env:
+      VAR_DATE: ${{env.date}}
+      VAR_TIME: ${{env.time}}
     runs-on: ubuntu-latest
     steps:
       - name: step1
-        run: echo "My App Name :${{env.MY_APP_NAME}} ======= My Pckg Name :${{env.MY_PACKAGE_NAME}}"
+        run: |
+          echo "My App Name :${{env.MY_APP_NAME}} ======= My Pckg Name :${{env.MY_PACKAGE_NAME}}"
+          echo "Date is ${{env.VAR_DATE}} and time is ${{VAR_TIME}}"
         
