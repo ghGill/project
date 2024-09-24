@@ -17,5 +17,5 @@ jobs:
       - name: step1
         run: |
           echo "My App Name :${{env.MY_APP_NAME}} ======= My Pckg Name :${{env.MY_PACKAGE_NAME}}"
-          echo "Date is ${{fromJSON(env.VAR_TIME)}}"
+          echo "Date is ${{ env.VAR_TIME }}"
         
