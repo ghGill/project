@@ -13,5 +13,5 @@ jobs:
     runs-on: Windows
     steps:
       - name: step1
-        run: echo "My App Name :${{MY_PACKAGE_NAME}}"
+        run: echo "My App Name :${{env.MY_PACKAGE_NAME}}"
         
