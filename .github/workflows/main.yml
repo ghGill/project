@@ -11,8 +11,8 @@ on:
 jobs:
   job-1:
     env:
-      VAR_DATE: ${{env.date}}
-      VAR_TIME: ${{env.time}}
+      VAR_DATE: "${{env.date}}"
+      VAR_TIME: "${{env.time}}"
     runs-on: ubuntu-latest
     steps:
       - name: step1
