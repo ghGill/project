@@ -10,7 +10,7 @@ on:
       
 jobs:
   job-1:
-    runs-on: x64
+    runs-on: Windows
     steps:
       - name: step1
         run: echo "My App Name :${{MY_PACKAGE_NAME}}"
